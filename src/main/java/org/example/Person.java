@@ -11,8 +11,12 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
-    void printName() {
+    public void printName() {
         System.out.println(this.name);
+    }
+
+    public String getName() {
+        return this.name;
     }
 
     public static void main(String[] args) {
