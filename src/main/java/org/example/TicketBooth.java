@@ -28,15 +28,15 @@ public class TicketBooth {
     }
 }
 
- class Main {
-    public static void main(String[] args) {
-        TicketBooth booth = new TicketBooth("Lions FC", 30);
-
-        booth.sellTickets(15);
-        booth.sellTickets(20);
-
-        System.out.println(booth.getTicketsSold());
-        System.out.println(booth.reachedGoal());
-        System.out.println(booth.getSummary());
-    }
-}
+// class Main {
+//    public static void main(String[] args) {
+//        TicketBooth booth = new TicketBooth("Lions FC", 30);
+//
+//        booth.sellTickets(15);
+//        booth.sellTickets(20);
+//
+//        System.out.println(booth.getTicketsSold());
+//        System.out.println(booth.reachedGoal());
+//        System.out.println(booth.getSummary());
+//    }
+//}
